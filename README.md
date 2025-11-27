@@ -1,2 +1,8 @@
-# C-1
-Program to add 2 numbers
+#inlude <stdio.>
+int main (){ int a, b, sum;
+ printf("Enter two numbers: "
+ scanf("%d %d, &a,&b);
+ sum = a+b;
+ printf("Sum = %d\n", sum);
+ return 0;
+ }
